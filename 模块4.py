@@ -7,7 +7,7 @@ def sqrt(x):
     return c
 
 try:
-    x = sqrt(-1)
-except ValueError as err:
+    x = sqrt("hello Kugou")
+except TypeError as err:
     print("Error: " + str(err))
 
